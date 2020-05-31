@@ -51,6 +51,9 @@ nav ul li:hover {
 
 .my_row img {
     max-width: 230px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 5px;
 }
 
 @media all and (max-width: 400px) {
