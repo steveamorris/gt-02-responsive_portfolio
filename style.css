@@ -1,0 +1,68 @@
+body {
+    background-color: skyblue;
+}
+
+
+nav {
+    font-size: large;
+    background-color: rgb(245, 226, 117);
+}
+
+nav ul {
+    list-style-type: none;
+    margin 0;
+    padding: 0%;
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+nav ul li {
+    cursor: pointer;
+    padding: 0.5rem;
+    /* flex: auto; */
+    /* text-align: center; */
+}
+
+nav ul li:hover {
+    background-color: skyblue;
+    color: white;
+
+}
+
+.name {
+    flex: 2;
+    text-align: center;
+}
+
+.about {
+    margin-left: auto;
+}
+
+.my_container {
+    /* background-color: skyblue; */
+    /* background-image: url(./assets/images/Spiral-Labyrinth-2015053027.svg); */
+    /* background-repeat: no-repeat; */
+}
+
+.my_row {
+    background-color: steelblue;
+    max-width: 500px;
+}
+
+.my_row img {
+    max-width: 230px;
+}
+
+@media all and (max-width: 400px) {
+    .about{
+        margin: initial;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        text-align: center;
+    }
+
+}
+}
