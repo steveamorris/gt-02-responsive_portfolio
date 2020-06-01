@@ -1,35 +1,48 @@
 # gt-02-responsive_portfolio
+
 Use Bootstrap to create a Responsive Portfolio
 https://theendisfar.github.io/gt-02-responsive_portfolio/
 
-## Description 
+## Description
 
-Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application.
+"Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application."  Bootstrap and other CSS Frameworks allows developers to predictably and consistently deliver working code that can be easily followed by others.
 
-In this exercise we are 
+In this exercise we are:
+
+- Create the following files files: index.html, portfolio.html and contact.html.
+- Using Bootstrap, develop your portfolio site with the following items:
+
+  1. A navbar
+  2. A responsive layout
+  3. Responsive images
+
+- The Bootstrap portfolio should minimize the use of media queries.
+- Screenshots are provided as a reference in the Assets/Images folder. Your app does not need to be exactly like the images. Use Bootstrap to create a similar, responsive layout.
+
+## Bonus
+
+- Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (Hint: Check out the Bootstrap documentation).
 
 At a minimum, your project README needs a title and a short description explaining the what, why, and how. What was your motivation? Why did you build this project? (Note: The answer is not "Because it was a homework assignment.") What problem does it solve? What did you learn? What makes your project stand out? If your project has a lot of features, consider adding a heading called "Features" and listing them here.
 
+- [Methods](#methods)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-## Table of Contents (Optional)
+## What Why and How
 
-If your README is very long, add a table of contents to make it easy for users to find what they need.
+This exercise has helped me view UI in logical blocks
 
-* [Installation](#installation)
-* [Usage](#usage)
-* [Credits](#credits)
-* [License](#license)
+## Methods
 
+First I created my respository, then I cloned it to my local workign directory.  Next I created my 'develop' branch and created index.html, portfolio.html, and contact.html.  I copied the Bootstrap link into my 'head' and JQuery into 'body', then I created my own style.css and linked it.
 
-## Installation
+Next I watched a video from [freecodecamp.org](https://youtu.be/-Wlt8NRtOpo) that helped me figure out how to set up my navbar and portfolio. It is a tutorial on Flexbox which I decided to use instead of Bootstrap's 'nav' selectors.  
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+## Usage
 
-
-## Usage 
-
-Provide instructions and examples for use. Include screenshots as needed. 
-
+Provide instructions and examples for use. Include screenshots as needed.
 
 ## Credits
 
@@ -39,12 +52,9 @@ If you used any third-party assets that require attribution, list the creators w
 
 If you followed tutorials, include links to those here as well.
 
-
-
 ## License
 
 The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
-
 
 ---
 
@@ -55,7 +65,6 @@ The last section of a good README is a license. This lets other developers know 
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
 Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
 
 ## Contributing
 
