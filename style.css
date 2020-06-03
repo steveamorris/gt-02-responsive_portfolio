@@ -2,7 +2,21 @@ nav .navbar-brand {
     padding-left: 25%;
 }
 
+.navbar {
+    background-color: skyblue;
+    /* background-color: transparent; */
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.navbar ul li a {
+    font-size: 30px;
+}
+
 body {
+    padding-top: -15px;
     background-color: skyblue;
     background-image: url(./assets/images/Spiral-Labyrinth-2015053027.svg);
 }
@@ -17,18 +31,4 @@ div .col img {
     padding-right: 15px;
 }
 
-}
 
-@media all and (max-width: 400px) {
-    .about{
-        margin: initial;
-    }
-    nav ul {
-        flex-direction: column;
-    }
-    nav ul li {
-        text-align: center;
-    }
-
-}
-}
