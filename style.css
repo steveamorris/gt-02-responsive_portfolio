@@ -16,19 +16,35 @@ nav .navbar-brand {
 }
 
 body {
-    padding-top: -15px;
     background-color: skyblue;
     background-image: url(./assets/images/Spiral-Labyrinth-2015053027.svg);
 }
 
+#about_img {
+    max-width: 350px;
+    max-height: 350px;
+}
 .container {
-    padding-top: 50px;
+    /* padding-top: 50px; */
 }
 
-div .col img {
+/* div .col img {
     max-width: 50%;
     float: left;
     padding-right: 15px;
+} */
+
+div .col-md-6 {
+    padding: 15px;
+}
+
+div .col-md-6 p {
+    position: absolute;
+    left: 20%;
+    bottom: 20%;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
 }
 
 
