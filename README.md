@@ -2,6 +2,7 @@
 
 Use Bootstrap to create a Responsive Portfolio
 https://theendisfar.github.io/gt-02-responsive_portfolio/
+https://github.com/theendisfar/gt-02-responsive_portfolio
 
 ## Description
 
@@ -19,7 +20,7 @@ In this exercise we are:
 - The Bootstrap portfolio should minimize the use of media queries.
 - Screenshots are provided as a reference in the Assets/Images folder. Your app does not need to be exactly like the images. Use Bootstrap to create a similar, responsive layout.
 
-## Bonus
+## Bonus  
 
 - Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (Hint: Check out the Bootstrap documentation).
 
@@ -32,7 +33,7 @@ At a minimum, your project README needs a title and a short description explaini
 
 ## What Why and How
 
-This exercise has helped me view UI in logical blocks
+This exercise has helped me view UI in logical blocks.  It took some time to get the grid system, but lots of trial and error helped.
 
 ## Methods
 
@@ -40,36 +41,13 @@ First I created my respository, then I cloned it to my local workign directory. 
 
 Next I watched a video from [freecodecamp.org](https://youtu.be/-Wlt8NRtOpo) that helped me figure out how to set up my navbar and portfolio. It is a tutorial on Flexbox which I decided to use instead of Bootstrap's 'nav' selectors.  
 
+Then we went over the Grid layout in Bootstrap.  I ended up creating my navbar from scratch and after figuring out how to make the footer stick, I applied the same to the navbar.  The form was the easiest.
+
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Simple Portfolio Website for Bootstrap Practice.
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+Mostly used [GetBootstrap](https://getbootstrap.com) and videos from [Academind](https://youtu.be/qmPmwdshCMw)
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-## License
-
-The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
-
----
-
-🏆 The sections listed above are the minimum for a good README, but your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-
-Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Contributing
-
-If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them.
