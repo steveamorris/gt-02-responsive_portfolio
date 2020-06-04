@@ -5,17 +5,78 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Steve Morris</title>
         <meta name="description" content="Home Page for Steve Morris">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <!-- <link rel="stylesheet" href=""> -->
-    </head>
-    <body>
-
-        
-        <script src="" async defer>        </script>
+        <!-- JQuery in head tag for Bootstrap functionalaity -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <!-- Viewport for Media Query -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap is my friend -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- Header with Navbar -->
+        <header>
+            <nav class="navbar navbar-expand-lg fixed-top navbar-light" >
+                <a href="./index.html" class="navbar-brand">Steve Morris</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a href="./index.html" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="./portfolio.html" class="nav-link">Portfolio</a></li>
+                        <li class="nav-item"><a href="./contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Another Navbar -->
+            
+        </header>
+
+        <main class="container">
+            <div class="row" >
+                <!-- left whitespace  -->
+                <div class="col-lg-2">
+
+                </div>
+                <!-- About div  -->
+                <div class="col-lg-6" id="about_col">
+                    <div class="row">
+                        <div class="col">
+                            <h2>About Me</h2>
+                            <hr>
+                            <div class="row">
+                                <div class="col">
+                                    <img id="about_img" class="float-left img-thumbnail" src="./assets/images/20200424_125317.jpg"/>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, ipsum consectetur? Ullam corrupti aliquid doloremque ipsa non distinctio porro suscipit voluptatibus minus, quisquam obcaecati veniam illo rem vel magni delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quod vel aliquam quae distinctio beatae inventore animi? Nam eveniet magnam sed non officiis, repellendus hic perferendis nesciunt quae eaque laborum.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, placeat! Itaque, harum quas omnis ratione id nesciunt ducimus vero amet minima? Ducimus, voluptatem. Qui, culpa at quod porro quae eos.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nesciunt ratione repellendus quam provident, dolores neque eos eveniet quis cupiditate doloremque quas molestias! Autem molestiae eius, repellat quidem velit dolorum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ratione reprehenderit quod voluptas assumenda ut laudantium commodi eveniet sapiente, amet ab possimus. Quod cupiditate at reiciendis ipsum asperiores ad illo.</p>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim ratione animi, eum eius reiciendis, tempore, exercitationem dolorum rerum voluptate debitis nostrum alias repudiandae vel tenetur ab? Possimus maiores minus iste. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet expedita earum rem soluta velit molestias voluptatum consequuntur ipsa similique nesciunt. Sint dolorem dolor quisquam velit consequatur cum consectetur repellat perspiciatis!</p>
+                                
+                                </div>
+        
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4"></div>
+            </div>      
+            
+        </main>
+        <footer id="sticky-footer" class="py-4 fixed-bottom text-black-50">
+            <div class="container text-center">
+              <small>Copyright &copy; Steve Morris</small>
+            </div>
+          </footer>
+
 
     </body>
 </html>
